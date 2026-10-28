@@ -1,0 +1,60 @@
+
+
+.seccion-azul {
+    background-color: #1b4965;
+    padding: 50px 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.seccion-azul h1 {
+    color: #ffffff;
+    font-size: 28px;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.seccion-azul p {
+    color: #bee9e8;
+    font-size: 16px;
+    margin: 0;
+    letter-spacing: 0.5px;
+}
+.barra-navegacion {
+    background-color: #1b4965;
+    padding: 10px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.barra-navegacion ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+}
+
+.barra-navegacion li a {
+    color: #bee9e8;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.barra-navegacion li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.barra-navegacion li a.activo {
+    background-color: #bee9e8;
+    color: #1b4965;
+}
