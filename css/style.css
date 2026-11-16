@@ -80,6 +80,147 @@ html, body {
 
 
 
+#encabezado-personajes{ color:#00ffcc;
+    
+}
+
+#brandy{
+    color: #81e4d0;
+}
+
+.tarjeta-personaje {
+    
+    background-color: rgba(5, 44, 62, 0.4);
+    
+    
+    border-radius: 12px;
+    
+    border: 1px solid rgba(0, 243, 255, 0.3);
+    
+    padding: 20px;
+    
+    
+    margin-bottom: 20px;
+    
+    
+    max-width: 600px;
+    
+    box-shadow: 0 0 10px rgba(0, 243, 255, 0.1);
+}
+
+.tarjeta-personaje h3 {
+    color: #00f3ff;
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.tarjeta-personaje p {
+    color: #bee9e8;
+    margin-bottom: 0;
+}
+
+.tarjeta-personaje {
+    background-color: rgba(5, 44, 62, 0.4);
+    border-radius: 12px;
+    border: 1px solid rgba(0, 243, 255, 0.3);
+    padding: 20px;
+    margin-bottom: 20px;
+    max-width: 800px; 
+    box-shadow: 0 0 10px rgba(0, 243, 255, 0.1);
+    
+    
+    display: flex;
+    align-items: center; 
+    gap: 20px;           
+}
+
+
+.texto-personaje {
+    flex: 1;
+}
+
+ 
+.img-personaje {
+    width: 200px !important;       
+    height: auto !important;       
+    border-radius: 12px !important;
+    border: 2px solid #07222d !important; 
+    flex-shrink: 0;                
+}
+
+
+
+
+.texto-personaje {
+    flex: 1;
+    
+    max-width: 380px; 
+}
+
+.img-personaje {
+    width: 200px !important;
+    height: auto !important;
+    border-radius: 12px !important;
+    border: 2px solid #07222d !important;
+    flex-shrink: 0;
+}
+
+.tarjeta-personaje {
+    background-color: rgba(5, 44, 62, 0.4);
+    border-radius: 12px;
+    border: 1px solid rgba(0, 243, 255, 0.3);
+    padding: 20px;
+    margin-bottom: 20px;
+    max-width: 650px;
+    box-shadow: 0 0 10px rgba(0, 243, 255, 0.1);
+    
+    display: flex;
+    align-items: flex-start;
+    
+    
+    gap: 10px; 
+    
+    
+    justify-content: space-between; 
+}
+
+.contenedor-principal {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.columna-personajes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 650px;
+}
+
+.tarjeta-historia {
+    background-color: rgba(5, 44, 62, 0.4);
+    border-radius: 12px;
+    border: 1px solid rgba(0, 243, 255, 0.3);
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(0, 243, 255, 0.1);
+    position: absolute;
+    right: 20px;
+    top: -999px;
+    width: 550px;
+}
+
+.tarjeta-historia h3 {
+    color: #00f3ff;
+    margin-bottom: 15px;
+}
+
+.tarjeta-historia p {
+    color: #fff;
+    line-height: 1.6;
+}
 
 
 
