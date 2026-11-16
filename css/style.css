@@ -224,3 +224,58 @@ html, body {
 
 
 
+.contenedor-seccion-largo {
+    display: flex;
+    gap: 20px; /* Reducimos el espacio entre ambos para que estén más juntos */
+    max-width: 1100px; /* Un poco más compacto para que no se extiendan tanto a los lados */
+    margin: 30px auto;
+    padding: 20px;
+    align-items: stretch;
+    justify-content: center;
+}
+
+
+.tarjeta-historia-larga {
+    flex: 1.6;
+    background-color: rgba(5, 44, 62, 0.4);
+    border-radius: 12px;
+    border: 1px solid rgba(0, 243, 255, 0.3);
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 243, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.tarjeta-historia-larga h3 {
+    color: #00f3ff;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.tarjeta-historia-larga p {
+    color: #fff;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+
+.columna-foto-larga {
+    flex: 1;
+    background-color: rgba(5, 44, 62, 0.4);
+    border-radius: 12px;
+    border: 1px solid rgba(0, 243, 255, 0.3);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 243, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.columna-foto-larga img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
